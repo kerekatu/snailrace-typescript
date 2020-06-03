@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snail Race</title>
+    <script src="./src/js/app.js" defer></script>
+    <link rel="stylesheet" href="./src/css/style.css" />
+  </head>
+  <body id="app">
+    <main class="container">
+      <h1>Snail Race</h1>
+      <p>Best Score:</p>
+      <div class="race">
+        <div class="race__control">
+          <input
+            type="text"
+            class="race__input"
+            id="race-input-name"
+            placeholder="Choose a Name"
+            autocomplete="off"
+          />
+          <input
+            type="number"
+            class="race__input"
+            id="race-input-control"
+            placeholder="Choose a Button"
+            autocomplete="off"
+          />
+          <button type="button" class="race__btn" id="race-btn-add">
+            Add Snail
+          </button>
+          <button type="button" class="race__btn" id="race-btn-start">
+            Start Race
+          </button>
+        </div>
+        <div class="race__box" id="race-way">
+          <div class="race__finish"></div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

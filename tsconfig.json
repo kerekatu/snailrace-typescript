@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "ES5",
+    "watch": true,
+    "lib": ["DOM", "ESNext"],
+    "sourceMap": true
+  },
+  "exclude": ["node_modules"]
+}
