@@ -33,13 +33,15 @@ var SnailManager = /** @class */ (function () {
                         _this.matchFinished = true;
                         alert(snail.name + ' has won the snail race!');
                     }
-                    else if (_this.matchFinished) {
-                        var buttonReset = document.createElement('button');
-                        buttonReset.id = 'btn-race-reset';
-                        buttonReset.className = 'race__btn';
-                        buttonReset.innerHTML = 'Reset';
-                        document.querySelector('.race__control').appendChild(buttonReset);
-                    }
+                    // else if (this.matchFinished) {
+                    //   const buttonReset = document.createElement(
+                    //     'button'
+                    //   ) as HTMLButtonElement
+                    //   buttonReset.id = 'btn-race-reset'
+                    //   buttonReset.className = 'race__btn'
+                    //   buttonReset.innerHTML = 'Reset'
+                    //   document.querySelector('.race__control').appendChild(buttonReset)
+                    // }
                 });
             });
         };

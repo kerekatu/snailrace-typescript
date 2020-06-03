@@ -40,15 +40,16 @@ class SnailManager {
           snail.finished = true
           this.matchFinished = true
           alert(snail.name + ' has won the snail race!')
-        } else if (this.matchFinished) {
-          const buttonReset = document.createElement(
-            'button'
-          ) as HTMLButtonElement
-          buttonReset.id = 'btn-race-reset'
-          buttonReset.className = 'race__btn'
-          buttonReset.innerHTML = 'Reset'
-          document.querySelector('.race__control').appendChild(buttonReset)
         }
+        // else if (this.matchFinished) {
+        //   const buttonReset = document.createElement(
+        //     'button'
+        //   ) as HTMLButtonElement
+        //   buttonReset.id = 'btn-race-reset'
+        //   buttonReset.className = 'race__btn'
+        //   buttonReset.innerHTML = 'Reset'
+        //   document.querySelector('.race__control').appendChild(buttonReset)
+        // }
       })
     })
   }
